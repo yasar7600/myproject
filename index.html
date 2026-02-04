@@ -2,9 +2,261 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
+    <title>VistaTravels | Explore The World</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hellow World</h1>
+    
+    <!-- Navbar -->
+    <header>
+        <div class="container navbar">
+            <div class="logo">Vista<span>Travels</span> <i class="fas fa-paper-plane"></i></div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>It's Time To Travel The World</h1>
+            <p>Discover amazing places, diverse cultures, and unforgettable experiences with our exclusive travel packages.</p>
+            <div class="hero-btns">
+                <a href="#destinations" class="btn">Explore Now</a>
+                <a href="#contact" class="btn btn-outline">Plan a Trip</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Popular Destinations</h2>
+                <p>Top rated locations for your next holiday adventure</p>
+            </div>
+
+            <div class="destinations-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Venice">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Venice, Italy</span>
+                            <span><i class="fas fa-clock"></i> 5 Days</span>
+                        </div>
+                        <h3>Romantic Canals Tour</h3>
+                        <p>Experience the beauty of Venice canals and historic architecture.</p>
+                        <div style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center;">
+                            <span class="price">$1,200</span>
+                            <a href="#" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bali">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Bali, Indonesia</span>
+                            <span><i class="fas fa-clock"></i> 7 Days</span>
+                        </div>
+                        <h3>Tropical Paradise Escape</h3>
+                        <p>Relax on pristine beaches and explore lush green rice terraces.</p>
+                        <div style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center;">
+                            <span class="price">$850</span>
+                            <a href="#" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Thailand">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Phuket, Thailand</span>
+                            <span><i class="fas fa-clock"></i> 6 Days</span>
+                        </div>
+                        <h3>Island Hopping Adventure</h3>
+                        <p>Visit the famous James Bond Island and enjoy water sports.</p>
+                        <div style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center;">
+                            <span class="price">$950</span>
+                            <a href="#" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1613395877344-13d4c2ce5d4d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Santorini">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Santorini, Greece</span>
+                            <span><i class="fas fa-clock"></i> 6 Days</span>
+                        </div>
+                        <h3>Aegean Blue Dream</h3>
+                        <p>Walk through white-washed streets and enjoy mesmerizing sunsets.</p>
+                        <div style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center;">
+                            <span class="price">$1,500</span>
+                            <a href="#" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Kyoto">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Kyoto, Japan</span>
+                            <span><i class="fas fa-clock"></i> 8 Days</span>
+                        </div>
+                        <h3>Cultural Heritage Tour</h3>
+                        <p>Visit ancient temples and experience traditional tea ceremonies.</p>
+                        <div style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center;">
+                            <span class="price">$1,800</span>
+                            <a href="#" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Swiss Alps">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Swiss Alps</span>
+                            <span><i class="fas fa-clock"></i> 5 Days</span>
+                        </div>
+                        <h3>Mountain Adventure</h3>
+                        <p>Skiing, hiking, and breathtaking mountain views await you.</p>
+                        <div style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center;">
+                            <span class="price">$2,100</span>
+                            <a href="#" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Us</h2>
+                <p>We ensure you have the best experience possible</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-user-shield service-icon"></i>
+                    <h3>Safe Travel</h3>
+                    <p>We prioritize your safety with verified guides and secure accommodations.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-wallet service-icon"></i>
+                    <h3>Affordable Pricing</h3>
+                    <p>Premium experiences at the most competitive market rates guaranteed.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-plane service-icon"></i>
+                    <h3>Easy Booking</h3>
+                    <p>Seamless booking process with instant confirmation and 24/7 support.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-camera service-icon"></i>
+                    <h3>Unique Guides</h3>
+                    <p>Our local experts show you the hidden gems regular tourists miss.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="color: var(--white);">Start Your Journey</h2>
+                <p style="color: rgba(255,255,255,0.8);">Get in touch with us for a custom travel plan</p>
+            </div>
+
+            <div class="contact-box">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Where do you want to go?" required></textarea>
+                    <button type="submit" class="btn">Send Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>VistaTravels</h3>
+                    <p style="color: #bdc3c7; margin-bottom: 20px;">We make your travel dreams come true with our expert planning and top-notch services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Travel St, New York</li>
+                        <li><i class="fas fa-phone"></i> +1 234 567 8900</li>
+                        <li><i class="fas fa-envelope"></i> info@vistatravels.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 VistaTravels. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
 </body>
-</html>
